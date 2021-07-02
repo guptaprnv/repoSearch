@@ -45,10 +45,11 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     flexGrow: 1,
     alignItems: 'center',
-	backgroundColor: 'grey',
+    backgroundColor: 'grey',
   },
   textInput: {
     marginRight: 10,
+    flexBasis: 200,
     flexGrow: 1,
   },
 });

@@ -13,8 +13,6 @@ class App extends Component {
       searchText: '',
       repoList: [],
     };
-    this.handleChange = this.handleChange.bind(this);
-    this.handlePress = this.handlePress.bind(this);
   }
   async componentDidMount() {
     try {
@@ -27,12 +25,14 @@ class App extends Component {
       console.log(error);
     }
   }
-  handleChange(text) {
+
+  handleChange = text => {
     this.setState({
       searchText: text,
     });
-  }
-  handlePress() {
+  };
+
+  handlePress = () => {
     const text = this.state.searchText;
     const repoList = this.state.repoList;
     const searchedRepoList = searchRepos(repoList, text);
@@ -40,7 +40,8 @@ class App extends Component {
       searchText: '',
       searchedRepoList: searchedRepoList,
     });
-  }
+  };
+
   render() {
     return (
       <View style={styles.container}>
