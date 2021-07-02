@@ -5,7 +5,7 @@ export const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: 'white',
     padding: 10,
-	backgroundColor: 'black',
+    backgroundColor: 'black',
   },
   repoList: {
     marginTop: 10,
@@ -16,8 +16,8 @@ export const styles = StyleSheet.create({
     borderColor: 'blue',
     flexDirection: 'row',
     marginBottom: 10,
-	marginTop: 10,
-	paddingBottom:2,
+    marginTop: 10,
+    paddingBottom: 2,
   },
   repoText: {
     marginRight: 10,
@@ -25,8 +25,8 @@ export const styles = StyleSheet.create({
     flexShrink: 1,
     flexGrow: 1,
     flexBasis: 30,
-	justifyContent: 'center',
-	color: 'white'
+    justifyContent: 'center',
+    color: 'white',
   },
   image: {
     height: 30,
@@ -38,17 +38,17 @@ export const styles = StyleSheet.create({
   SearchBar: {
     flexDirection: 'row',
     height: 40,
-	marginBottom: 10,
-	backgroundColor: 'white',
+    marginBottom: 10,
+    backgroundColor: 'white',
   },
   button: {
-    marginRight: 10,
     justifyContent: 'center',
-	flexGrow:1,
-	alignItems: 'center',
+    flexGrow: 1,
+    alignItems: 'center',
+	backgroundColor: 'grey',
   },
   textInput: {
     marginRight: 10,
-	flexGrow:1,
+    flexGrow: 1,
   },
 });
